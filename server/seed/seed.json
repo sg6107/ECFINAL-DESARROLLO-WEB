@@ -1,0 +1,129 @@
+{
+  "settings": {
+    "business_name": "Consultorio Demo",
+    "reservation_slot_minutes": 30,
+    "timezone": "America/Lima"
+  },
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@consultorio.com",
+      "password": "hash123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "juan@example.com",
+      "password": "hash123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "email": "maria@example.com",
+      "password": "hash123",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "email": "carlos@example.com",
+      "password": "hash123",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "email": "sofia@example.com",
+      "password": "hash123",
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "email": "luis@example.com",
+      "password": "hash123",
+      "role": "user"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Consulta General",
+      "description": "Revisión médica general con el especialista.",
+      "price": 100.00,
+      "duration_minutes": 30
+    },
+    {
+      "id": 2,
+      "name": "Pediatría",
+      "description": "Atención médica para niños y adolescentes.",
+      "price": 120.00,
+      "duration_minutes": 40
+    },
+    {
+      "id": 3,
+      "name": "Obstetricia",
+      "description": "Consulta de control y salud reproductiva.",
+      "price": 180.00,
+      "duration_minutes": 50
+    },
+    {
+      "id": 4,
+      "name": "Dental",
+      "description": "Procedimientos odontológicos básicos.",
+      "price": 150.00,
+      "duration_minutes": 45
+    },
+    {
+      "id": 5,
+      "name": "Terapia Psicológica",
+      "description": "Sesión de terapia con psicólogo clínico.",
+      "price": 200.00,
+      "duration_minutes": 60
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "service_id": 1,
+      "customer_name": "Juan Pérez",
+      "customer_email": "juan@example.com",
+      "date": "2025-09-01",
+      "time": "10:00",
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "service_id": 2,
+      "customer_name": "María López",
+      "customer_email": "maria@example.com",
+      "date": "2025-09-02",
+      "time": "11:00",
+      "status": "confirmed"
+    },
+    {
+      "id": 3,
+      "service_id": 3,
+      "customer_name": "Carlos Ruiz",
+      "customer_email": "carlos@example.com",
+      "date": "2025-09-03",
+      "time": "14:30",
+      "status": "canceled"
+    },
+    {
+      "id": 4,
+      "service_id": 4,
+      "customer_name": "Sofía Gómez",
+      "customer_email": "sofia@example.com",
+      "date": "2025-09-04",
+      "time": "09:15",
+      "status": "confirmed"
+    },
+    {
+      "id": 5,
+      "service_id": 5,
+      "customer_name": "Luis Torres",
+      "customer_email": "luis@example.com",
+      "date": "2025-09-05",
+      "time": "16:00",
+      "status": "canceled"
+    }
+  ]
+}
